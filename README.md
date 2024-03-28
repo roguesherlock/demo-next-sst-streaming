@@ -2,9 +2,16 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-# Setup environment variables
+## Setup environment variables
 
-- You'll need to pass in your open ai api key
+- You'll need to set `OPENAI_API_KEY` environment variable
+
+## Deploy to sst
+
+```bash
+sst secret set OpenAiApiKey <API_KEY>
+sst deploy
+```
 
 First, run the development server:
 
