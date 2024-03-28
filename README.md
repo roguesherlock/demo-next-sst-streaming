@@ -2,6 +2,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+# Setup environment variables
+
+- You'll need to pass in your open ai api key
+
 First, run the development server:
 
 ```bash
